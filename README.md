@@ -9,6 +9,18 @@
 | snippets | `ffmpeg -framerate 8 -i %04d.jpg output.mp4` |
 | Notes | images must be sequntionally in order  |
 
+### nginx
+| property         | Value           |
+| ------------- |:-------------:| 
+| purpose      | edit configuration file |
+| snippets | `sudo nano /etc/nginx/sites-available/default` |
+| Notes | must restart for changes to take effect  |
+
+| property         | Value           |
+| ------------- |:-------------:| 
+| purpose      | restart nginx to update config  |
+| snippets | `sudo service nginx restart` |
+
 ## scritps
 
 ### renameImages
